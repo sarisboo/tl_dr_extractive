@@ -1,4 +1,4 @@
-# Data
+# 📚 Data
 
 For this analysis, we will use the [wikihow](https://www.tensorflow.org/datasets/catalog/wikihow) dataset. In a wikihow article structure, every paragraph starts with a sentence that summarizes what the whole paragraph will be about.This type of summary is exactly what we need when we use an extractive method for text summarization.
 
@@ -29,3 +29,5 @@ From this raw data we extracted the following features:
 **tfidf_score** : Sentence tf idf score (Using sklearn&#39;s tfidf vectorizer on each word and computing the sum of tfidf for each sentence, stopwords were previously removed)
 
 **title_similarity** : For each sentence, we compute its similarity score to the title (using spacy which uses cosine similarity to compute it).
+
+[**Next: 🎯 Project Aims**](03-project-aims.md)

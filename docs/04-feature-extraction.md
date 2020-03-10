@@ -1,4 +1,4 @@
-# Feature Extraction
+# ⛏ Feature Extraction
 
 ## Surface Features
 
@@ -39,3 +39,5 @@ From sentences with the highest TF-IDF score, we pick the top most important wor
 </p>
 
 The top three predominant verbs in summary sentences here are `know`, `get` and `find` which makes sense in the context of wikihow articles, we will later perform statistical tests to confirm that some words are indeed more prevalent in summary sentences.
+
+[**Next: 📊 Statistical Inference**](05-statistical-inference.md)

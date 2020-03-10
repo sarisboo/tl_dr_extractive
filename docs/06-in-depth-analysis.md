@@ -1,4 +1,4 @@
-# In-depth analysis using machine learning
+# 🤖 In-depth Analysis
 
 ## Supervised methods
 
@@ -187,3 +187,5 @@ As an unsupervised method we used LDA with K-Means to see how efficiently summar
 </p>
 
 We can see here a very high recall but a significant drop in precision, it is basically always right because it considers the vast majority of sentences as belonging to one class which means it would select most of the summary sentences.
+
+[**Next: 🤔 Conclusion**](07-conclusion.md)

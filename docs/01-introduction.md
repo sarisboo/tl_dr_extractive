@@ -1,4 +1,4 @@
-# Introduction
+# 🚀 Introduction
 
 ## Problem
 
@@ -18,3 +18,5 @@ In this project, we will focus on exploring and evaluating different approaches 
 ## Literature review
 
 There are various [extractive techniques](https://medium.com/sciforce/towards-automatic-text-summarization-extractive-methods-e8439cd54715) for [summarization](https://arxiv.org/pdf/1707.02268.pdf), some are topic-based approaches using [topic signatures](https://www.aclweb.org/anthology/J93-1003/) in order to determine the importance of a sentence, others are based the on frequency of words and text semantics as importance indicators like  [TF-IDF](https://medium.com/voice-tech-podcast/automatic-extractive-text-summarization-using-tfidf-3fc9a7b26f5) and [LSA](http://lsa.colorado.edu/papers/JASIS.lsi.90.pdf)  and we also have  graph methods that combine inter-sentence similarity and TF-IDF  to create a graph representation of the documents. Another approach is to treat summarization as a classification problem and try to apply different machine learning algorithms to obtain a reliable summary.
+
+[**Next: 📚 Data**](02-data.md)

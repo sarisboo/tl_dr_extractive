@@ -1,4 +1,4 @@
-# Statistical Inference
+# 📊 Statistical Inference
 
 Finally we use statistical methods to confirm a few hypotheses about this dataset.
 
@@ -50,3 +50,5 @@ Again, the `p-value < 0.000` here which makes our two variables `tfidf_score` an
 From this analysis we can note that summary sentences tend to look shorter than regular sentences, we later confirmed that using statistical inference. We can also notice that some verbs are more frequent in summary sentences compared to non summary sentences.
 
 When looking at the similarity to the title, we noticed that in proportion, non summary sentences show more similarity to the title than summary sentences. As we progress towards stronger similarities, the proportion of summary sentences decreases and that this can be due to the specificities of summary sentences in this dataset.
+
+[**Next: 🤖 In-depth Analysis**](06-in-depth-analysis.md)
