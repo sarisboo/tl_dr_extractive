@@ -6,7 +6,9 @@ Testing the difference of mean of sentence lengths
 
 We used bootstrap analysis under the null hypothesis for the average sentence length.
 
-![](images/mean-diff-sentence-length.png)
+<p align=center>
+  <img src="images/mean-diff-sentence-length.png" />
+</p>
 
 **Null hypothesis** : There is no difference the average sentence length of a summary sentence and the average sentence length of a non summary sentence.
 
@@ -27,13 +29,17 @@ Based on the most frequent word in a summary barplot, we pick as an example the 
 
 We use the chi square test for testing relationships between categorical variables.
 
-![](images/chi-square.png)
+<p align=center>
+  <img src="images/chi-square.png" />
+</p>
 
 The null hypothesis is rejected since `p < 0.000` and a conclusion is made that `title_sim_categories` is associated with `is_summary`. The Cramer's V value here is the measure of strength of association between the two variables. In this case, it is closer to 0 than 1 which means there is little association between `title_sim_categories` and `is_summary`.
 
 ### Pearson correlation test
 
-![](images/pearson-correlation.png)
+<p align=center>
+  <img src="images/pearson-correlation.png" />
+</p>
 
 These two variables look slightly positively correlated.
 

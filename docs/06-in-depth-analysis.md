@@ -24,15 +24,21 @@ In the following results, we compare the performance of different models and com
 
 **Precision**: What proportion of summary sentences were actual ones.
 
-![](images/precision-formula.png)
+<p align=center>
+  <img src="images/precision-formula.png" />
+</p>
 
 **Recall**: What proportion of summary sentences were indeed summary sentences.
 
-![](images/total-recall.png)
+<p align=center>
+  <img src="images/total-recall.png" />
+</p>
 
 **F1 score**: Harmonic mean of precision and recall with values ranging from 0 to 1. It is a pretty good measure of a test&#39;s accuracy for binary classifications.
 
-![](images/formula-1-score.png)
+<p align=center>
+  <img src="images/formula-1-score.png" />
+</p>
 
 After looking at those metrics, we plotted the distribution of recalls at the article level for the testing set, which means we calculated the recall for each article and looked at how they are distributed for a specific model. Our goal is to get as many recalls close or equal to 1 as possible.
 
@@ -44,11 +50,15 @@ The final step is to see how much &#39;compression&#39; we achieved for each one
 
 #### Classification report
 
-![](images/mnb-classification-report.png)
+<p align=center>
+  <img src="images/mnb-classification-report.png" />
+</p>
 
 #### Recall distribution across articles
 
-![](images/mnb-recall-distribution.png)
+<p align=center>
+  <img src="images/mnb-recall-distribution.png" />
+</p>
 
 #### Summary samples
 
@@ -68,11 +78,15 @@ The final step is to see how much &#39;compression&#39; we achieved for each one
 
 ### Random Forest Classifier
 
-![](images/rfc-classification-report.png)
+<p align=center>
+  <img src="images/rfc-classification-report.png" />
+</p>
 
 #### Recall distribution across articles
 
-![](images/rfc-recall-distribution.png)
+<p align=center>
+  <img src="images/rfc-recall-distribution.png" />
+</p>
 
 #### Summary samples
 
@@ -94,11 +108,15 @@ The final step is to see how much &#39;compression&#39; we achieved for each one
 
 #### Classification report
 
-![](images/rfc+lda-classification-report.png)
+<p align=center>
+  <img src="images/rfc+lda-classification-report.png" />
+</p>
 
 #### Recall distribution across articles
 
-![](images/rfc+lda-recall-distribution.png)
+<p align=center>
+  <img src="images/rfc+lda-recall-distribution.png" />
+</p>
 
 #### Summary samples
 
@@ -120,11 +138,15 @@ The final step is to see how much &#39;compression&#39; we achieved for each one
 
 #### Classification report
 
-![](images/mnb+lda-classification-report.png)
+<p align=center>
+  <img src="images/mnb+lda-classification-report.png" />
+</p>
 
 #### Recall distribution across all articles
 
-![](images/mnb+lda-recall-distribution.png)
+<p align=center>
+  <img src="images/mnb+lda-recall-distribution.png" />
+</p>
 
 #### Summary samples
 
@@ -160,6 +182,8 @@ As an unsupervised method we used LDA with K-Means to see how efficiently summar
 
 ### LDA+KMEANS
 
-![](images/lda+kmeans-classification-report.png)
+<p align=center>
+  <img src="images/lda+kmeans-classification-report.png" />
+</p>
 
 We can see here a very high recall but a significant drop in precision, it is basically always right because it considers the vast majority of sentences as belonging to one class which means it would select most of the summary sentences.
