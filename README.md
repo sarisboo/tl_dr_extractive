@@ -14,4 +14,4 @@
 
 ## Resources
 
-* [🎆 Slides](https://docs.google.com/presentation/d/1T3aWwdivKmzD7NSSghumf19eMmXwHnLz0Im-1saDYxw/edit?usp=sharing)
+* [🎆 Slides](https://docs.google.com/presentation/d/1GpahwhAWoixZ1TNp5vD2BBzq2FcrAr3PNjpEP79J0-c/edit?usp=sharing)
